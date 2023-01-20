@@ -1,6 +1,8 @@
 # KoEBA
 ## Overview
 
+https://user-images.githubusercontent.com/123139173/213644804-783bfe33-bbd5-48be-9ec0-5628b6babbe0.mp4
+
 **Korean Election Broadcast Addresses Dataset (KoEBA)** is a video dataset of Korean politicians’ speeches uploaded to YouTube. This dataset contains audio labels that show the intervals in which a person speaks, video labels that show scene transitions, landmark files that show keypoints on the face, and provides some Python scripts for editing images and voices.
 
 ## Description
