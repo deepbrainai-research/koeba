@@ -8,6 +8,17 @@ https://user-images.githubusercontent.com/123139173/213644804-783bfe33-bbd5-48be
 ## Description
 This dataset consists of videos of **104 politicians**. All video frames are **1080p high-resolution** images, which can be cropped to 256 or larger sizes(e.g. 512). Each video is **an average of 10 minutes long** enough to train the neural network. All videos also **contain voice**, so data can be used for learning lip-sync as well as face/voice synthesis networks. For your convenience, this page provides **Python scripts for downloading** videos and some **tools for editing videos**.
 
+
+## Installation
+
+```Python
+conda create -n koeba python=3.7
+conda activate koeba
+pip install pandas pydub tqdm opencv-python
+
+```
+
+
 ## Download
 ### Download all videos
 * download_video.py
