@@ -3,7 +3,7 @@
 
 https://user-images.githubusercontent.com/123139173/213644804-783bfe33-bbd5-48be-9ec0-5628b6babbe0.mp4
 
-**Korean Election Broadcast Addresses Dataset (KoEBA)** is a video dataset of Korean politicians’ speeches uploaded to YouTube. This dataset contains audio labels that show the intervals in which a person speaks, video labels that show scene transitions, landmark files that show keypoints on the face, and provides some Python scripts for editing images and voices.
+**Korean Election Broadcast Addresses Dataset (KoEBA)** is a video dataset of Korean politicians’ speeches uploaded to YouTube. This dataset contains audio labels that show the intervals in which a person speaks, video labels that show scene transitions and some Python scripts for editing images and voices.
 
 ## Description
 This dataset consists of videos of **104 politicians**. All video frames are **1080p high-resolution** images, which can be cropped to 256 or larger sizes(e.g. 512). Each video is **an average of 10 minutes long** enough to train the neural network. All videos also **contain voice**, so data can be used for learning lip-sync as well as face/voice synthesis networks. For your convenience, this page provides **Python scripts for downloading** videos and some **tools for editing videos**.
@@ -111,30 +111,6 @@ python clip_audio.py --youtube_id YOUTUBE_ID
 # If you want to clip all m4a files 
 # save path: audio/clip/xxxx.wav
 python clip_all_audio.py 
-```
-
-
-### Crop Video
-
-* crop_video.py
-
-This Python script provides the ability to detect faces and cut them into appropriate sizes. Use a variant of the **crop-video.py** file from [this link](https://github.com/AliaksandrSiarohin/first-order-model). You can crop the face to the size you want(256 or 512 sizes). Use the command as follows:
-
-```python
-# If you want to crop video 256 resolution
-python crop_video.py --image_shape 256 --increase 0 --y-shift 0 --inp input_video_path --filename output_video_path
-
-# If you want to crop video 512 resolution
-python crop_video.py --image_shape 512 --increase 0 --y-shift 0 --inp input_video_path --filename output_video_path
-
-```
-
-```plian
-@InProceedings{Siarohin_2019_NeurIPS,
-  author={Siarohin, Aliaksandr and Lathuilière, Stéphane and Tulyakov, Sergey and Ricci, Elisa and Sebe, Nicu},
-  title={First Order Motion Model for Image Animation}
-}
-
 ```
 
 ## About Data
@@ -251,11 +227,11 @@ It is accessible to all people as a broadcast dataset for the election, but it c
 
 ```plain
 @InProceedings{Kwon_2021_ICCV,
-    author    = {Kwon, Patrick and You, Jaeseong and Nam, Gyuhyeon and Park, Sungwoo and Chae, Gyeongsu},
-    title     = {KoDF: A Large-Scale Korean DeepFake Detection Dataset},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {10744-10753}
+    author    = {A},
+    title     = {B},
+    booktitle = {C},
+    month     = {D},
+    year      = {E},
+    pages     = {F}
 }
 ```
