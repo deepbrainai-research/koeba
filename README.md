@@ -66,7 +66,7 @@ This Python script has the ability to **clip videos from label text**. Each line
 
 e.g.) video/labels/0BUTu8NQpaw.txt
 |  | start frame | end frame | face direction | scene notation | remark |
-| --- | --- | --- | --- | --- | --- |
+| --- | ---: | ---: | :---: | :---: | --- |
 | line 1 | 0 | 140 | 0 (moving camera angle) | 018 | fade-in |
 | line 2 | 141 | 495 | 4 (frontal face but different camera angle) | 019 |  |
 | line 3 | 496 | 843 | 1 (frontal face) | 020 |  |
@@ -95,7 +95,7 @@ This Python script provides the ability to clip sounds from audio text labels. F
 e.g.) audio/labels/0BUTu8NQpaw.txt
 
 |  | start time (sec) | end time (sec) | scene notation |
-| --- | --- | --- | --- |
+| --- | ---: | ---: | :---: |
 | line 1 | 5.920000 | 7.440000 | 002 |
 | line 2 | 7.440000 | 10.170000 | 003 |
 | line 3 | 10.390000 | 13.270000 | 004 |
@@ -149,7 +149,7 @@ To provide rich vocabulary and images, we found the sufficient length of videos.
 * Statistic
 
 | video length | the number of data |
-| --- | --- |
+| :---: | ---: |
 | 4min ~ 6min  | 10 |
 | 6min ~ 8min | 7 |
 | 8min ~ 10min | 31 |
@@ -181,7 +181,7 @@ def clip_ratio(wav_path):
 * Statistic
 
 | clipping ratio | the number of data |
-| --- | --- |
+| :---: | ---: |
 | 1e-6 ~ 5e-5 | 3 |
 | 1e-7 ~ 1e-6  | 11 |
 | 1e-7 ~ 1e-6 | 14 |
@@ -217,7 +217,7 @@ def effective_sr(eff_freq):
 * statistic
 
 | effective frequency | the number of data |
-| --- | --- |
+| :---: | ---: |
 | 9000Hz~10000Hz | 2 |
 | 10000Hz~11000Hz | 4 |
 | 11000Hz~12000Hz | 3 |
@@ -229,7 +229,7 @@ def effective_sr(eff_freq):
 | Total | 104 |
 
 | effective sampling rate | the number of data |
-| --- | --- |
+| :---: | ---: |
 | 22050 | 8 |
 | 24000 | 22 |
 | 32000 | 74 |
