@@ -18,6 +18,10 @@ ONLY_VIDEO = args.only_video
 ONLY_AUDIO = args.only_audio
 AUDIO_FORMAT = args.sound_format
 
+
+if not os.path.exists(SAVE_PATH):
+    os.mkdir(SAVE_PATH)
+
 df = pd.read_csv(CSV_PATH)
 
 for idx, row in df.iterrows():
