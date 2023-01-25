@@ -114,26 +114,6 @@ python clip_all_audio.py
 ```
 
 
-
-### Dlib Landmarks
-We used the **Dlib library** to mark the keypoints of the face about all frames in videos. All the information was stored in the form of ‘pickle’. Pickle files have the frame number, keypoints(x, y axis), and a bound box of face. We reference [following link](https://github.com/davisking/dlib). Information can be easily read through the following code.
-
-```python
-import pickle
-
-with open('video/landmarks/YOUTUBE_ID.p', 'rb') as f:
-    data = pickle.load(f)
-    for i in range(len(data)):
-        
-        frame_no = data[i]['frame_no']
-        keypoints = data[i]['keypoints']
-        face_box = data[i]['face_box']
-				
-        ## example
-        print(frame_no)
-        print(keypoints)
-        print(face_box)
-```
 ### Crop Video
 
 * crop_video.py
