@@ -14,7 +14,7 @@ This dataset consists of videos of **104 politicians**. All video frames are **1
 ```Python
 conda create -n koeba python=3.7
 conda activate koeba
-pip install pandas pydub tqdm opencv-python
+pip install -r requirements.txt
 
 ```
 
