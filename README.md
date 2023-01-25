@@ -22,6 +22,7 @@ pip install pandas pydub tqdm opencv-python
 ## Download
 ### Download all videos
 * download_video.py
+
 This Python script allows you to download videos by reading YouTube links from the ‘download_list.csv’ file. You can choose one of three options to suit your purpose. The first is to download the video (with sound). The second is to download only the video (without sound), and the last is to download only the audio(m4a files).
 
 ```Python
