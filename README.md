@@ -226,12 +226,12 @@ It is accessible to all people as a broadcast dataset for the election, but it c
 ## Citation 
 
 ```plain
-@InProceedings{Kwon_2021_ICCV,
-    author    = {A},
-    title     = {B},
-    booktitle = {C},
-    month     = {D},
-    year      = {E},
-    pages     = {F}
+@InProceedings{A,
+    author    = {B},
+    title     = {C},
+    booktitle = {D},
+    month     = {E},
+    year      = {F},
+    pages     = {G}
 }
 ```
