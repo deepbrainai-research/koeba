@@ -236,7 +236,7 @@ def effective_sr(eff_freq):
 | Total | 104 |  
 
 ## Licenses
-The individual video was posted on YouTube under the Korean election broadcasting license. Metadata files, download script files, processing script files, and document files are available under the **Creative Commons Attribution-NonCommercial 4.0 license**. You can use, redistribute, and adjust the appropriate credit by citing our paper, indicating any changes you have made, and distributing derivative works under the same license. The fundamental copyright of the videos lies with the presenter and the publisher. This dataset is only designed to aid research not commercial. Therefore, we are not responsible for the conflict between video rights and commercial use.  
+Each video was posted on YouTube under the [Korean National Election Commission](https://www.nec.go.kr/site/nec/main.do). Metadata files, download script files, processing script files, and document files are available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license(CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). You can use, redistribute, and adjust the appropriate credit by citing our paper, indicating any changes you have made, and distributing derivative works under the same license. The fundamental copyright of the videos lies with the presenter and the publisher. This dataset is only designed to aid research not commercial. Therefore, we are not responsible for the conflict between video rights and commercial use.  
 
 
 ## Privacy
