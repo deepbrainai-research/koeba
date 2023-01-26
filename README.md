@@ -222,16 +222,12 @@ It is accessible to all people as a broadcast dataset for the election, but it c
 
 2. If you have any other problems with downloading, please notice by using e-mail [dunkin@deepbrainai.io](mailto:dunkin@deepbrainai.io)
 
+## Contributors
+
+[Seunghyun Lee](), [Sungwoo Park](), [Gyuhyeon Nam](), [Geumbyeol Hwang](), [Kihyeok Lee](), [Changjin Han](), Jungjun Kim(), [Sunwon Hong](), and [Gyeongsu Chae]().
 
 ## Citation 
 
 ```plain
-@InProceedings{A,
-    author    = {B},
-    title     = {C},
-    booktitle = {D},
-    month     = {E},
-    year      = {F},
-    pages     = {G}
-}
+To be Uploaded
 ```
