@@ -224,7 +224,7 @@ It is accessible to all people as a broadcast dataset for the election, but it c
 
 ## Contributors
 
-[Seunghyun Lee](), [Sungwoo Park](), [Gyuhyeon Nam](), [Geumbyeol Hwang](), [Kihyeok Lee](), [Changjin Han](), [Jungjun Kim](), [Yoohyun Lee]() [Sunwon Hong](), and [Gyeongsu Chae]().
+[Seunghyun Lee](), [Sungwoo Park](), [Gyuhyeon Nam](), [Geumbyeol Hwang](), [Kihyeok Lee](), [Changjin Han](), [Jungjun Kim](), [Yoohyun Lee](), [Sunwon Hong](), and [Gyeongsu Chae]().
 
 ## Citation 
 
