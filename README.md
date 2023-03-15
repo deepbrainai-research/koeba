@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/123139173/213644804-783bfe33-bbd5-48be
 
 **대한민국 선거 방송 연설 데이터 세트(Korean Election Broadcast Addresses Dataset, koEBA)** 는 유튜브에 업로드 된 대한민국 정치인 연설을 담은 비디오 데이터세트입니다. 이 데이터 세트는 사람이 말하는 구간에 대한 시간 레이블과, 장면의 전환을 보여주는 비디오 레이블을 담고 있습니다. 또한 편의를 위해 비디오 및 음성을 편집할 수 있는 Python 스크립트를 제공합니다.
 
-**If you want an English translation version, please click** [This](https://github.com/deepbrainai-research/koeba/blob/master/README_English.md).
+**If you want an English translation version, please click** [README_English](https://github.com/deepbrainai-research/koeba/blob/master/README_English.md).
 
 
 ## 요약
