@@ -229,5 +229,22 @@ It is accessible to all people as a broadcast dataset for the election, but it c
 ## Citation 
 
 ```plain
-To be Uploaded
+@misc{https://doi.org/10.48550/arxiv.2303.07697,
+  doi = {10.48550/ARXIV.2303.07697},
+  
+  url = {https://arxiv.org/abs/2303.07697},
+  
+  author = {Hwang, Geumbyeol and Hong, Sunwon and Lee, Seunghyun and Park, Sungwoo and Chae, Gyeongsu},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), Image and Video Processing (eess.IV), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+  
+  title = {DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
 ```
