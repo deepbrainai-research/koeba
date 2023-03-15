@@ -165,9 +165,9 @@ $$
 
 ## 딥페이크 연구용 데이터 제공
 
-딥페이크는 인공지능 기술은 진짜처럼 보이는 조작된 영상을 생성하는 기술입니다. 만들어진 딥페이크 영상은 진위 판별이 어렵기때문에 선동이나 협박에 사용되는 경우 큰 피해를 야기할 수 있습니다. 최근 인공지능 기술의 발전에 따라 딥페이크를 이용한 범죄의 위험도 증가하고 있습니다. 이러한 사회적 문제를 방지하기 위해 [딥브레인에이아이](https://www.deepbrain.io/ko/home)는 가짜 딥페이크 영상을 판별하는 기술 개발에도 박차를 가하고 있습니다.
+딥페이크는 인공지능 기술은 진짜처럼 보이는 조작된 영상을 생성하는 기술입니다. 만들어진 딥페이크 영상은 진위 판별이 어렵기때문에 선동이나 협박에 사용되는 경우 큰 피해를 야기할 수 있습니다. 최근 인공지능 기술의 발전에 따라 딥페이크를 이용한 범죄의 위험도 증가하고 있습니다. 이러한 사회적 문제를 방지하기 위해 [딥브레인AI](https://www.deepbrain.io/ko/home)는 가짜 딥페이크 영상을 판별하는 기술 개발에도 박차를 가하고 있습니다.
 
-[딥브레인에이아이](https://www.deepbrain.io/ko/home)는 딥페이크 영상 판별에 도움을 줄 수 있도록 해당 데이터로 학습하여 합성한 가짜 정치인 영상을 보유하고 있습니다. 합성된 가짜 영상이 악의적인 목적에 의해 사용되는 것을 방지하고, 탐지 기술 연구를 통해 사회적 공익을 도모할 분들에 한정하여 합성 영상 데이터 세트를 제공합니다.
+우리는 딥페이크 영상 판별에 도움을 줄 수 있도록 해당 데이터로 학습하여 합성한 가짜 정치인 영상을 보유하고 있습니다. 합성된 가짜 영상이 악의적인 목적에 의해 사용되는 것을 방지하고, 탐지 기술 연구를 통해 사회적 공익을 도모할 분들에 한정하여 합성 영상 데이터 세트를 제공합니다.
 
 다음 [서약서](https://docs.google.com/forms/d/1OhV1QGPSjHk-LL271jV5cMirzmmKyy45H4nL9xb3wWA/edit)에 응해주시면 심사를 통하여 데이터를 제공해드립니다. 
 
@@ -181,7 +181,24 @@ $$
 
 다음 데이터를 사용하시는 경우 아래를 인용해주세요.
 ```plain
-To be Uploaded
+@misc{https://doi.org/10.48550/arxiv.2303.07697,
+  doi = {10.48550/ARXIV.2303.07697},
+  
+  url = {https://arxiv.org/abs/2303.07697},
+  
+  author = {Hwang, Geumbyeol and Hong, Sunwon and Lee, Seunghyun and Park, Sungwoo and Chae, Gyeongsu},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), Image and Video Processing (eess.IV), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
+  
+  title = {DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
 ```
 
 
