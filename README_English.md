@@ -228,6 +228,7 @@ It is accessible to all people as a broadcast dataset for the election, but it c
 
 ## Citation 
 
+If you use koEBA dataset, please cite as
 ```plain
 @misc{https://doi.org/10.48550/arxiv.2303.07697,
   doi = {10.48550/ARXIV.2303.07697},
