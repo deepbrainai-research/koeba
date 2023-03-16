@@ -4,7 +4,7 @@
 https://user-images.githubusercontent.com/123139173/213644804-783bfe33-bbd5-48be-9ec0-5628b6babbe0.mp4
 
 
-**대한민국 선거 방송 연설 데이터 세트(Korean Election Broadcast Addresses Dataset, koEBA)** 는 유튜브에 업로드 된 대한민국 정치인 연설을 담은 비디오 데이터세트입니다. 이 데이터 세트는 사람이 말하는 구간에 대한 시간 레이블과, 장면의 전환을 보여주는 비디오 레이블을 담고 있습니다. 또한 편의를 위해 비디오 및 음성을 편집할 수 있는 Python 스크립트를 제공합니다.
+**대한민국 선거 방송연설 데이터 세트(Korean Election Broadcast Addresses Dataset, koEBA)** 는 유튜브에 업로드 된 대한민국 정치인 연설을 담은 비디오 데이터 세트입니다. 이 데이터 세트는 사람이 말하는 구간에 대한 시간 레이블과, 장면의 전환을 보여주는 비디오 레이블을 담고 있습니다. 또한 편의를 위해 비디오 및 음성을 편집할 수 있는 Python 스크립트를 제공합니다.
 
 **If you want an English translation version, please click** [README_English](https://github.com/deepbrainai-research/koeba/blob/master/README_English.md).
 
@@ -45,7 +45,7 @@ python download_video.py --save_path audio/data/ --only_audio 1
 ```
 
 ### 주의사항
-이 데이터세트는 쉽게 다운로드하고 편집할 수 있도록 비디오 링크와 레이블만을 제공합니다. 오직 공익을 위한 연구를 목적으로 제공하고 있음을 명심하십시오. [공직선거법 제279조](https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EB%B2%95)에 의거하여 모든 비디오의 저작권은 각급 선거관리 위원회에 있습니다.
+이 데이터 세트는 쉽게 다운로드하고 편집할 수 있도록 비디오 링크와 레이블만을 제공합니다. 오직 공익을 위한 연구를 목적으로 제공하고 있음을 명심하십시오. [공직선거법 제279조](https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B3%B5%EC%A7%81%EC%84%A0%EA%B1%B0%EB%B2%95)에 의거하여 모든 비디오의 저작권은 각급 선거관리 위원회에 있습니다.
 
 따라서 영상을 직접 배포하지 않고, 유튜브 ID와 다운로드 할 수 있는 기능들만을 제공합니다. 상업적인 목적이나 비디오의 오용을 통한 문제에 대해서 책임지지 않습니다. 공익을 목적으로만 이용해주십시오. 또한 정치인 개인의 사유로 인해 영상의 접근에 문제가 생기는 경우 ‘download_list.csv’에서 해당 링크를 지운 후 사용해주시기 바랍니다.
 
@@ -101,7 +101,7 @@ python clip_all_audio.py
 ## 데이터 통계
 
 
-이 데이터세트는 높은 품질의 영상과 음성을 제공하기 위해  다음과 같은 통계적 특성을 반영합니다. 
+이 데이터 세트는 높은 품질의 영상과 음성을 제공하기 위해  다음과 같은 통계적 특성을 반영합니다. 
 
 ### 사람 수
 
@@ -110,7 +110,7 @@ python clip_all_audio.py
 ### 비디오 길이
 
 평균적으로 약 11.5분(691초)의 길이를 가지고 있습니다. 따라서 풍부한 어휘와 이미지를 제공할 수 있습니다.
-| 비디오 길이 | 데이터수 |
+| 비디오 길이 | 데이터 수 |
 | :---: | ---: |
 | 4min ~ 6min  | 10 |
 | 6min ~ 8min | 7 |
@@ -126,7 +126,7 @@ python clip_all_audio.py
 
 ### 신호 클리핑
 
-음성데이터의 경우 녹화 환경에 따라서 신호가 잘려나가는 현상이 빈번하게 발생합니다. 이런 현상이 빈번할수록 왜곡이 심하고 저품질의 데이터가 되어 합성 결과에 안좋은 영향을 미칠 수 있습니다. 따라서 우리는 포화된 신호의 비율이 $5\times10^{-5}$ 를 넘어가지 않는 데이터들로 엄선하였습니다.
+음성 데이터의 경우 녹화 환경에 따라서 신호가 잘려나가는 현상이 빈번하게 발생합니다. 이런 현상이 빈번할수록 왜곡이 심하고 저품질의 데이터가 되어 합성 결과에 안좋은 영향을 미칠 수 있습니다. 따라서 우리는 포화된 신호의 비율이 $5\times10^{-5}$ 를 넘어가지 않는 데이터들로 엄선하였습니다.
 
 $$
 \text{clipping ratio} = \frac{\text{the number of saturated signals}}{\text{total signal length}}
@@ -181,24 +181,14 @@ $$
 
 KoEBA 데이터를 사용하시는 경우 아래 논문을 인용해주세요.
 ```plain
-@misc{https://doi.org/10.48550/arxiv.2303.07697,
-  doi = {10.48550/ARXIV.2303.07697},
-  
-  url = {https://arxiv.org/abs/2303.07697},
-  
-  author = {Hwang, Geumbyeol and Hong, Sunwon and Lee, Seunghyun and Park, Sungwoo and Chae, Gyeongsu},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), Image and Video Processing (eess.IV), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
-  
-  title = {DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
-  
-  publisher = {arXiv},
-  
-  year = {2023},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
+@misc{hwang2023discohead,
+      title={DisCoHead: Audio-and-Video-Driven Talking Head Generation by Disentangled Control of Head Pose and Facial Expressions},
+      author={Geumbyeol Hwang and Sunwon Hong and Seunghyun Lee and Sungwoo Park and Gyeongsu Chae},
+      year={2023},
+      eprint={2303.07697},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
-
 ```
 
 
